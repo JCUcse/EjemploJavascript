@@ -1,0 +1,24 @@
+@font-face{
+   font-family:"ComicNeue-Bold";
+    src: url(ComicNeue-Bold.ttf);
+}
+body{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-size: 5rem;
+    font-family: "ComicNeue-Bold", sans-serif;
+margin:0.1rem;
+}
+
+p{
+    border:1rem solid #003BFF;
+    border-radius: 1rem;
+    padding: 1rem;
+}
